@@ -1,0 +1,3990 @@
+{
+    "title": "menzies_bar_oos_test",
+    "body": {
+        "content": [
+            {
+                "endIndex": 1,
+                "sectionBreak": {
+                    "sectionStyle": {
+                        "columnSeparatorStyle": "NONE",
+                        "contentDirection": "LEFT_TO_RIGHT",
+                        "sectionType": "CONTINUOUS"
+                    }
+                }
+            },
+            {
+                "startIndex": 1,
+                "endIndex": 30,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1,
+                            "endIndex": 27,
+                            "textRun": {
+                                "content": "17/01/2023 MENZIES BAR OOS",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 28,
+                                        "unit": "PT"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "startIndex": 27,
+                            "endIndex": 30,
+                            "textRun": {
+                                "content": "\t\t\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.vs4gmsxqt5ot",
+                        "namedStyleType": "TITLE",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 30,
+                "endIndex": 31,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 30,
+                            "endIndex": 31,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 31,
+                "endIndex": 32,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 31,
+                            "endIndex": 32,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 32,
+                "endIndex": 33,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 32,
+                            "endIndex": 33,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 33,
+                "endIndex": 34,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 33,
+                            "endIndex": 34,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 34,
+                "endIndex": 65,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 34,
+                            "endIndex": 50,
+                            "textRun": {
+                                "content": "RED = TO DELIST\t",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "startIndex": 50,
+                            "endIndex": 65,
+                            "textRun": {
+                                "content": "GREEN= ORDERED\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 0.41568628,
+                                                "green": 0.65882355,
+                                                "blue": 0.30980393
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 65,
+                "endIndex": 83,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 65,
+                            "endIndex": 83,
+                            "textRun": {
+                                "content": "ORANGE = TO ORDER\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1,
+                                                "green": 0.6
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 83,
+                "endIndex": 84,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 83,
+                            "endIndex": 84,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1,
+                                                "green": 0.6
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 84,
+                "endIndex": 85,
+                "sectionBreak": {
+                    "sectionStyle": {
+                        "columnProperties": [
+                            {
+                                "width": {
+                                    "magnitude": 207.637,
+                                    "unit": "PT"
+                                },
+                                "paddingEnd": {
+                                    "magnitude": 36,
+                                    "unit": "PT"
+                                }
+                            },
+                            {
+                                "width": {
+                                    "magnitude": 207.637,
+                                    "unit": "PT"
+                                },
+                                "paddingEnd": {
+                                    "unit": "PT"
+                                }
+                            }
+                        ],
+                        "columnSeparatorStyle": "NONE",
+                        "contentDirection": "LEFT_TO_RIGHT",
+                        "sectionType": "CONTINUOUS"
+                    }
+                }
+            },
+            {
+                "startIndex": 85,
+                "endIndex": 86,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 85,
+                            "endIndex": 86,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 86,
+                "endIndex": 92,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 86,
+                            "endIndex": 91,
+                            "textRun": {
+                                "content": "Notes",
+                                "textStyle": {
+                                    "bold": true,
+                                    "underline": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "startIndex": 91,
+                            "endIndex": 92,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.r3o8w9bfqcm6",
+                        "namedStyleType": "HEADING_1",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 92,
+                "endIndex": 93,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 92,
+                            "endIndex": 93,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 93,
+                "endIndex": 147,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 93,
+                            "endIndex": 146,
+                            "textRun": {
+                                "content": "Babo Chianti listed @ 2021, still got 2020 in stock. ",
+                                "textStyle": {}
+                            }
+                        },
+                        {
+                            "startIndex": 146,
+                            "endIndex": 147,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT",
+                        "indentFirstLine": {
+                            "magnitude": 18,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 36,
+                            "unit": "PT"
+                        }
+                    },
+                    "bullet": {
+                        "listId": "kix.r3c0bkq3k1id",
+                        "textStyle": {}
+                    }
+                }
+            },
+            {
+                "startIndex": 147,
+                "endIndex": 183,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 147,
+                            "endIndex": 183,
+                            "textRun": {
+                                "content": "Uva non grata gamay -> le juice btg\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT",
+                        "indentFirstLine": {
+                            "magnitude": 18,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 36,
+                            "unit": "PT"
+                        }
+                    },
+                    "bullet": {
+                        "listId": "kix.r3c0bkq3k1id",
+                        "textStyle": {
+                            "fontSize": {
+                                "magnitude": 10,
+                                "unit": "PT"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "startIndex": 183,
+                "endIndex": 265,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 183,
+                            "endIndex": 265,
+                            "textRun": {
+                                "content": "Nick spencer chardonnay -> collector chardonnay ($19), dom. Naturaliste CH ($17).\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT",
+                        "indentFirstLine": {
+                            "magnitude": 18,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 36,
+                            "unit": "PT"
+                        }
+                    },
+                    "bullet": {
+                        "listId": "kix.r3c0bkq3k1id",
+                        "textStyle": {
+                            "fontSize": {
+                                "magnitude": 10,
+                                "unit": "PT"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "startIndex": 265,
+                "endIndex": 266,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 265,
+                            "endIndex": 266,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 266,
+                "endIndex": 276,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 266,
+                            "endIndex": 276,
+                            "textRun": {
+                                "content": "Specials:\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.yrgyhpnd2kc9",
+                        "namedStyleType": "HEADING_1",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 276,
+                "endIndex": 277,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 276,
+                            "endIndex": 277,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "underline": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 277,
+                "endIndex": 307,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 277,
+                            "endIndex": 307,
+                            "textRun": {
+                                "content": "Bianco: Formiche Ansonica $41\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 307,
+                "endIndex": 308,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 307,
+                            "endIndex": 308,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 308,
+                "endIndex": 338,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 308,
+                            "endIndex": 338,
+                            "textRun": {
+                                "content": "Rosso: Koerner Nielluccio $25\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 338,
+                "endIndex": 339,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 338,
+                            "endIndex": 339,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "fontSize": {
+                                        "magnitude": 10,
+                                        "unit": "PT"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 339,
+                "endIndex": 340,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 339,
+                            "endIndex": 340,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "underline": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 340,
+                "endIndex": 341,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 340,
+                            "endIndex": 341,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "underline": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 341,
+                "endIndex": 349,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 341,
+                            "endIndex": 349,
+                            "textRun": {
+                                "content": "OOS BTG\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.vemgp8g1w4t3",
+                        "namedStyleType": "HEADING_1",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 349,
+                "endIndex": 350,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 349,
+                            "endIndex": 350,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 350,
+                "endIndex": 383,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 350,
+                            "endIndex": 383,
+                            "textRun": {
+                                "content": "1 x nick spencer 'tumbarumba' ch\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 383,
+                "endIndex": 384,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 383,
+                            "endIndex": 384,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 384,
+                "endIndex": 385,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 384,
+                            "endIndex": 385,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 385,
+                "endIndex": 386,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 385,
+                            "endIndex": 386,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "underline": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 386,
+                "endIndex": 394,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 386,
+                            "endIndex": 394,
+                            "textRun": {
+                                "content": "LOW BTG\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.oepfglknd6xy",
+                        "namedStyleType": "HEADING_1",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            },
+            {
+                "startIndex": 394,
+                "endIndex": 395,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 394,
+                            "endIndex": 395,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "underline": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 395,
+                "endIndex": 396,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 395,
+                            "endIndex": 396,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 396,
+                "endIndex": 420,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 396,
+                            "endIndex": 420,
+                            "textRun": {
+                                "content": "1 x uva non grata gamay\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 420,
+                "endIndex": 421,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 420,
+                            "endIndex": 421,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 421,
+                "endIndex": 458,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 421,
+                            "endIndex": 458,
+                            "textRun": {
+                                "content": "1 x vinden headcase 'pokolbin blanc'\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 458,
+                "endIndex": 459,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 458,
+                            "endIndex": 459,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 459,
+                "endIndex": 500,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 459,
+                            "endIndex": 500,
+                            "textRun": {
+                                "content": "1 x nino barraco 'fior di bianco' grillo\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 500,
+                "endIndex": 501,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 500,
+                            "endIndex": 501,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 501,
+                "endIndex": 534,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 501,
+                            "endIndex": 534,
+                            "textRun": {
+                                "content": "2 x andrea oberto la mora barolo\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 534,
+                "endIndex": 535,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 534,
+                            "endIndex": 535,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 535,
+                "endIndex": 551,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 535,
+                            "endIndex": 551,
+                            "textRun": {
+                                "content": "3 x st hugo gsm\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 551,
+                "endIndex": 552,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 551,
+                            "endIndex": 552,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 552,
+                "endIndex": 570,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 552,
+                            "endIndex": 570,
+                            "textRun": {
+                                "content": "3 x yangarra rose\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 570,
+                "endIndex": 571,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 570,
+                            "endIndex": 571,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 571,
+                "endIndex": 572,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 571,
+                            "endIndex": 572,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 572,
+                "endIndex": 573,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 572,
+                            "endIndex": 573,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 573,
+                "endIndex": 574,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 573,
+                            "endIndex": 574,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 574,
+                "endIndex": 575,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 574,
+                            "endIndex": 575,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 575,
+                "endIndex": 576,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 575,
+                            "endIndex": 576,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 576,
+                "endIndex": 584,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 576,
+                            "endIndex": 584,
+                            "textRun": {
+                                "content": "OOS BTB\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.ck2kunh5r604",
+                        "namedStyleType": "HEADING_1",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 584,
+                "endIndex": 585,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 584,
+                            "endIndex": 585,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 585,
+                "endIndex": 636,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 585,
+                            "endIndex": 636,
+                            "textRun": {
+                                "content": "deviation road lofita vintage brut (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 636,
+                "endIndex": 637,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 636,
+                            "endIndex": 637,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 637,
+                "endIndex": 680,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 637,
+                            "endIndex": 680,
+                            "textRun": {
+                                "content": "perrier jouet belle epoque (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 680,
+                "endIndex": 681,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 680,
+                            "endIndex": 681,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 681,
+                "endIndex": 710,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 681,
+                            "endIndex": 710,
+                            "textRun": {
+                                "content": "dom. seguinot-bordet chablis\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 710,
+                "endIndex": 711,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 710,
+                            "endIndex": 711,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 711,
+                "endIndex": 731,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 711,
+                            "endIndex": 731,
+                            "textRun": {
+                                "content": "2022 Ravensworth RI\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 731,
+                "endIndex": 732,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 731,
+                            "endIndex": 732,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 732,
+                "endIndex": 733,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 732,
+                            "endIndex": 733,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 733,
+                "endIndex": 734,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 733,
+                            "endIndex": 734,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 14,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 734,
+                "endIndex": 742,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 734,
+                            "endIndex": 742,
+                            "textRun": {
+                                "content": "LOW BTB\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.493pzlo2loqa",
+                        "namedStyleType": "HEADING_1",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 742,
+                "endIndex": 743,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 742,
+                            "endIndex": 743,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 743,
+                "endIndex": 744,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 743,
+                            "endIndex": 744,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 744,
+                "endIndex": 780,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 744,
+                            "endIndex": 780,
+                            "textRun": {
+                                "content": "1 x murdoch hill sb (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 780,
+                "endIndex": 781,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 780,
+                            "endIndex": 781,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 781,
+                "endIndex": 816,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 781,
+                            "endIndex": 816,
+                            "textRun": {
+                                "content": "1 x dom seg bordet (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 816,
+                "endIndex": 817,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 816,
+                            "endIndex": 817,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 817,
+                "endIndex": 843,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 817,
+                            "endIndex": 843,
+                            "textRun": {
+                                "content": "1 x alessandro viola rose\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 843,
+                "endIndex": 844,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 843,
+                            "endIndex": 844,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 844,
+                "endIndex": 886,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 844,
+                            "endIndex": 886,
+                            "textRun": {
+                                "content": "1 x whispering angel rose (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 886,
+                "endIndex": 887,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 886,
+                            "endIndex": 887,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 887,
+                "endIndex": 917,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 887,
+                            "endIndex": 917,
+                            "textRun": {
+                                "content": "1 x badenhost 'secateurs' gsm\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 917,
+                "endIndex": 918,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 917,
+                            "endIndex": 918,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 918,
+                "endIndex": 976,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 918,
+                            "endIndex": 976,
+                            "textRun": {
+                                "content": "1 x rocca de montigrossi chianti classico (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 976,
+                "endIndex": 977,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 976,
+                            "endIndex": 977,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 977,
+                "endIndex": 999,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 977,
+                            "endIndex": 999,
+                            "textRun": {
+                                "content": "1 x dom nat morus cab\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 999,
+                "endIndex": 1000,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 999,
+                            "endIndex": 1000,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1000,
+                "endIndex": 1045,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1000,
+                            "endIndex": 1045,
+                            "textRun": {
+                                "content": "1 x chat. rieussec sauternes (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1045,
+                "endIndex": 1046,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1045,
+                            "endIndex": 1046,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1046,
+                "endIndex": 1077,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1046,
+                            "endIndex": 1077,
+                            "textRun": {
+                                "content": "2 x dom nat CH (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1077,
+                "endIndex": 1078,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1077,
+                            "endIndex": 1078,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1078,
+                "endIndex": 1110,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1078,
+                            "endIndex": 1110,
+                            "textRun": {
+                                "content": "2 x ngeringa PN (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1110,
+                "endIndex": 1111,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1110,
+                            "endIndex": 1111,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1111,
+                "endIndex": 1169,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1111,
+                            "endIndex": 1169,
+                            "textRun": {
+                                "content": "2 x  maxime graillot dom. des lises syrah (more upstairs)\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1169,
+                "endIndex": 1170,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1169,
+                            "endIndex": 1170,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 14,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1170,
+                "endIndex": 1171,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1170,
+                            "endIndex": 1171,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 14,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1171,
+                "endIndex": 1189,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1171,
+                            "endIndex": 1189,
+                            "textRun": {
+                                "content": "TO CHANGE ON MENU\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.bmnn2ktdt85c",
+                        "namedStyleType": "HEADING_1",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1189,
+                "endIndex": 1190,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1189,
+                            "endIndex": 1190,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1190,
+                "endIndex": 1191,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1190,
+                            "endIndex": 1191,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1191,
+                "endIndex": 1192,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1191,
+                            "endIndex": 1192,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "bold": true,
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "alignment": "CENTER",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1192,
+                "endIndex": 1221,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1192,
+                            "endIndex": 1221,
+                            "textRun": {
+                                "content": "VINTAGE CHANGES/LIST CHANGES\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.xjscgqalfyop",
+                        "namedStyleType": "HEADING_1",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1221,
+                "endIndex": 1222,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1221,
+                            "endIndex": 1222,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {
+                                    "foregroundColor": {
+                                        "color": {
+                                            "rgbColor": {
+                                                "red": 1,
+                                                "green": 0.6
+                                            }
+                                        }
+                                    },
+                                    "fontSize": {
+                                        "magnitude": 12,
+                                        "unit": "PT"
+                                    },
+                                    "weightedFontFamily": {
+                                        "fontFamily": "Times New Roman",
+                                        "weight": 400
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1222,
+                "endIndex": 1223,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1222,
+                            "endIndex": 1223,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.e0cw4ybip1d2",
+                        "namedStyleType": "HEADING_1",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1223,
+                "endIndex": 1237,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1223,
+                            "endIndex": 1237,
+                            "textRun": {
+                                "content": "UPSTAIRS WINE\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "headingId": "h.u8ibglfmo3wx",
+                        "namedStyleType": "HEADING_1",
+                        "lineSpacing": 100,
+                        "direction": "LEFT_TO_RIGHT",
+                        "spacingMode": "NEVER_COLLAPSE"
+                    }
+                }
+            },
+            {
+                "startIndex": 1237,
+                "endIndex": 1238,
+                "paragraph": {
+                    "elements": [
+                        {
+                            "startIndex": 1237,
+                            "endIndex": 1238,
+                            "textRun": {
+                                "content": "\n",
+                                "textStyle": {}
+                            }
+                        }
+                    ],
+                    "paragraphStyle": {
+                        "namedStyleType": "NORMAL_TEXT",
+                        "direction": "LEFT_TO_RIGHT"
+                    }
+                }
+            }
+        ]
+    },
+    "documentStyle": {
+        "background": {
+            "color": {}
+        },
+        "pageNumberStart": 1,
+        "marginTop": {
+            "magnitude": 72,
+            "unit": "PT"
+        },
+        "marginBottom": {
+            "magnitude": 72,
+            "unit": "PT"
+        },
+        "marginRight": {
+            "magnitude": 72,
+            "unit": "PT"
+        },
+        "marginLeft": {
+            "magnitude": 72,
+            "unit": "PT"
+        },
+        "pageSize": {
+            "height": {
+                "magnitude": 841.8897637795277,
+                "unit": "PT"
+            },
+            "width": {
+                "magnitude": 595.2755905511812,
+                "unit": "PT"
+            }
+        },
+        "marginHeader": {
+            "magnitude": 36,
+            "unit": "PT"
+        },
+        "marginFooter": {
+            "magnitude": 36,
+            "unit": "PT"
+        },
+        "useCustomHeaderFooterMargins": true
+    },
+    "namedStyles": {
+        "styles": [
+            {
+                "namedStyleType": "NORMAL_TEXT",
+                "textStyle": {
+                    "bold": false,
+                    "italic": false,
+                    "underline": false,
+                    "strikethrough": false,
+                    "smallCaps": false,
+                    "backgroundColor": {},
+                    "foregroundColor": {
+                        "color": {
+                            "rgbColor": {}
+                        }
+                    },
+                    "fontSize": {
+                        "magnitude": 11,
+                        "unit": "PT"
+                    },
+                    "weightedFontFamily": {
+                        "fontFamily": "Arial",
+                        "weight": 400
+                    },
+                    "baselineOffset": "NONE"
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "alignment": "START",
+                    "lineSpacing": 115,
+                    "direction": "LEFT_TO_RIGHT",
+                    "spacingMode": "COLLAPSE_LISTS",
+                    "spaceAbove": {
+                        "unit": "PT"
+                    },
+                    "spaceBelow": {
+                        "unit": "PT"
+                    },
+                    "borderBetween": {
+                        "color": {},
+                        "width": {
+                            "unit": "PT"
+                        },
+                        "padding": {
+                            "unit": "PT"
+                        },
+                        "dashStyle": "SOLID"
+                    },
+                    "borderTop": {
+                        "color": {},
+                        "width": {
+                            "unit": "PT"
+                        },
+                        "padding": {
+                            "unit": "PT"
+                        },
+                        "dashStyle": "SOLID"
+                    },
+                    "borderBottom": {
+                        "color": {},
+                        "width": {
+                            "unit": "PT"
+                        },
+                        "padding": {
+                            "unit": "PT"
+                        },
+                        "dashStyle": "SOLID"
+                    },
+                    "borderLeft": {
+                        "color": {},
+                        "width": {
+                            "unit": "PT"
+                        },
+                        "padding": {
+                            "unit": "PT"
+                        },
+                        "dashStyle": "SOLID"
+                    },
+                    "borderRight": {
+                        "color": {},
+                        "width": {
+                            "unit": "PT"
+                        },
+                        "padding": {
+                            "unit": "PT"
+                        },
+                        "dashStyle": "SOLID"
+                    },
+                    "indentFirstLine": {
+                        "unit": "PT"
+                    },
+                    "indentStart": {
+                        "unit": "PT"
+                    },
+                    "indentEnd": {
+                        "unit": "PT"
+                    },
+                    "keepLinesTogether": false,
+                    "keepWithNext": false,
+                    "avoidWidowAndOrphan": true,
+                    "shading": {
+                        "backgroundColor": {}
+                    },
+                    "pageBreakBefore": false
+                }
+            },
+            {
+                "namedStyleType": "HEADING_1",
+                "textStyle": {
+                    "bold": true,
+                    "underline": true,
+                    "fontSize": {
+                        "magnitude": 12,
+                        "unit": "PT"
+                    },
+                    "weightedFontFamily": {
+                        "fontFamily": "Times New Roman",
+                        "weight": 400
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "alignment": "CENTER",
+                    "lineSpacing": 100,
+                    "direction": "LEFT_TO_RIGHT",
+                    "spacingMode": "NEVER_COLLAPSE",
+                    "keepLinesTogether": true,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "namedStyleType": "HEADING_2",
+                "textStyle": {
+                    "bold": false,
+                    "fontSize": {
+                        "magnitude": 16,
+                        "unit": "PT"
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT",
+                    "spaceAbove": {
+                        "magnitude": 18,
+                        "unit": "PT"
+                    },
+                    "spaceBelow": {
+                        "magnitude": 6,
+                        "unit": "PT"
+                    },
+                    "keepLinesTogether": true,
+                    "keepWithNext": true,
+                    "pageBreakBefore": false
+                }
+            },
+            {
+                "namedStyleType": "HEADING_3",
+                "textStyle": {
+                    "bold": false,
+                    "foregroundColor": {
+                        "color": {
+                            "rgbColor": {
+                                "red": 0.2627451,
+                                "green": 0.2627451,
+                                "blue": 0.2627451
+                            }
+                        }
+                    },
+                    "fontSize": {
+                        "magnitude": 14,
+                        "unit": "PT"
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT",
+                    "spaceAbove": {
+                        "magnitude": 16,
+                        "unit": "PT"
+                    },
+                    "spaceBelow": {
+                        "magnitude": 4,
+                        "unit": "PT"
+                    },
+                    "keepLinesTogether": true,
+                    "keepWithNext": true,
+                    "pageBreakBefore": false
+                }
+            },
+            {
+                "namedStyleType": "HEADING_4",
+                "textStyle": {
+                    "foregroundColor": {
+                        "color": {
+                            "rgbColor": {
+                                "red": 0.4,
+                                "green": 0.4,
+                                "blue": 0.4
+                            }
+                        }
+                    },
+                    "fontSize": {
+                        "magnitude": 12,
+                        "unit": "PT"
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT",
+                    "spaceAbove": {
+                        "magnitude": 14,
+                        "unit": "PT"
+                    },
+                    "spaceBelow": {
+                        "magnitude": 4,
+                        "unit": "PT"
+                    },
+                    "keepLinesTogether": true,
+                    "keepWithNext": true,
+                    "pageBreakBefore": false
+                }
+            },
+            {
+                "namedStyleType": "HEADING_5",
+                "textStyle": {
+                    "foregroundColor": {
+                        "color": {
+                            "rgbColor": {
+                                "red": 0.4,
+                                "green": 0.4,
+                                "blue": 0.4
+                            }
+                        }
+                    },
+                    "fontSize": {
+                        "magnitude": 11,
+                        "unit": "PT"
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT",
+                    "spaceAbove": {
+                        "magnitude": 12,
+                        "unit": "PT"
+                    },
+                    "spaceBelow": {
+                        "magnitude": 4,
+                        "unit": "PT"
+                    },
+                    "keepLinesTogether": true,
+                    "keepWithNext": true,
+                    "pageBreakBefore": false
+                }
+            },
+            {
+                "namedStyleType": "HEADING_6",
+                "textStyle": {
+                    "italic": true,
+                    "foregroundColor": {
+                        "color": {
+                            "rgbColor": {
+                                "red": 0.4,
+                                "green": 0.4,
+                                "blue": 0.4
+                            }
+                        }
+                    },
+                    "fontSize": {
+                        "magnitude": 11,
+                        "unit": "PT"
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT",
+                    "spaceAbove": {
+                        "magnitude": 12,
+                        "unit": "PT"
+                    },
+                    "spaceBelow": {
+                        "magnitude": 4,
+                        "unit": "PT"
+                    },
+                    "keepLinesTogether": true,
+                    "keepWithNext": true,
+                    "pageBreakBefore": false
+                }
+            },
+            {
+                "namedStyleType": "TITLE",
+                "textStyle": {
+                    "bold": true,
+                    "fontSize": {
+                        "magnitude": 28,
+                        "unit": "PT"
+                    },
+                    "weightedFontFamily": {
+                        "fontFamily": "Times New Roman",
+                        "weight": 400
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "lineSpacing": 100,
+                    "direction": "LEFT_TO_RIGHT",
+                    "spacingMode": "NEVER_COLLAPSE",
+                    "keepLinesTogether": true,
+                    "keepWithNext": true
+                }
+            },
+            {
+                "namedStyleType": "SUBTITLE",
+                "textStyle": {
+                    "italic": false,
+                    "foregroundColor": {
+                        "color": {
+                            "rgbColor": {
+                                "red": 0.4,
+                                "green": 0.4,
+                                "blue": 0.4
+                            }
+                        }
+                    },
+                    "fontSize": {
+                        "magnitude": 15,
+                        "unit": "PT"
+                    },
+                    "weightedFontFamily": {
+                        "fontFamily": "Arial",
+                        "weight": 400
+                    }
+                },
+                "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "direction": "LEFT_TO_RIGHT",
+                    "spaceAbove": {
+                        "unit": "PT"
+                    },
+                    "spaceBelow": {
+                        "magnitude": 16,
+                        "unit": "PT"
+                    },
+                    "keepLinesTogether": true,
+                    "keepWithNext": true,
+                    "pageBreakBefore": false
+                }
+            }
+        ]
+    },
+    "lists": {
+        "kix.r3c0bkq3k1id": {
+            "listProperties": {
+                "nestingLevels": [
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25cf",
+                        "glyphFormat": "%0",
+                        "indentFirstLine": {
+                            "magnitude": 18,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 36,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25cb",
+                        "glyphFormat": "%1",
+                        "indentFirstLine": {
+                            "magnitude": 54,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 72,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25a0",
+                        "glyphFormat": "%2",
+                        "indentFirstLine": {
+                            "magnitude": 90,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 108,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25cf",
+                        "glyphFormat": "%3",
+                        "indentFirstLine": {
+                            "magnitude": 126,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 144,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25cb",
+                        "glyphFormat": "%4",
+                        "indentFirstLine": {
+                            "magnitude": 162,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 180,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25a0",
+                        "glyphFormat": "%5",
+                        "indentFirstLine": {
+                            "magnitude": 198,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 216,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25cf",
+                        "glyphFormat": "%6",
+                        "indentFirstLine": {
+                            "magnitude": 234,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 252,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25cb",
+                        "glyphFormat": "%7",
+                        "indentFirstLine": {
+                            "magnitude": 270,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 288,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    },
+                    {
+                        "bulletAlignment": "START",
+                        "glyphSymbol": "\u25a0",
+                        "glyphFormat": "%8",
+                        "indentFirstLine": {
+                            "magnitude": 306,
+                            "unit": "PT"
+                        },
+                        "indentStart": {
+                            "magnitude": 324,
+                            "unit": "PT"
+                        },
+                        "textStyle": {
+                            "underline": false
+                        },
+                        "startNumber": 1
+                    }
+                ]
+            }
+        }
+    },
+    "revisionId": "AEQDSK6O1vkWa_4gh7Nve8zFWgLtB2S85W2FLcFswa4qoQGT05jgac8Ns_Zop5RGc0-JVqlX0HIWW9AR4VUMmQ",
+    "suggestionsViewMode": "SUGGESTIONS_INLINE",
+    "documentId": "1Iyy3ltWTNkEk45fP5rD7efiXG1kJlmTYehauf100DqY"
+}

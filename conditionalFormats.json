@@ -1,0 +1,190 @@
+[
+    {
+        "ranges": [
+            {
+                "startRowIndex": 1,
+                "endRowIndex": 151,
+                "startColumnIndex": 0,
+                "endColumnIndex": 11
+            }
+        ],
+        "booleanRule": {
+            "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                    {
+                        "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) > 0, ROUND(($F2-$E2)/$F2,1) < 0.25, $H2=\"yes\")"
+                    }
+                ]
+            },
+            "format": {
+                "backgroundColor": {
+                    "red": 0.62352943,
+                    "green": 0.62352943,
+                    "blue": 0.9254902
+                },
+                "backgroundColorStyle": {
+                    "rgbColor": {
+                        "red": 0.62352943,
+                        "green": 0.62352943,
+                        "blue": 0.9254902
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ranges": [
+            {
+                "startRowIndex": 1,
+                "endRowIndex": 151,
+                "startColumnIndex": 0,
+                "endColumnIndex": 11
+            }
+        ],
+        "booleanRule": {
+            "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                    {
+                        "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) >= 0.25, ROUND(($F2-$E2)/$F2,1) < 0.5, $H2=\"yes\")"
+                    }
+                ]
+            },
+            "format": {
+                "backgroundColor": {
+                    "red": 0.73333335,
+                    "green": 0.5254902,
+                    "blue": 0.69411767
+                },
+                "backgroundColorStyle": {
+                    "rgbColor": {
+                        "red": 0.73333335,
+                        "green": 0.5254902,
+                        "blue": 0.69411767
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ranges": [
+            {
+                "startRowIndex": 1,
+                "endRowIndex": 151,
+                "startColumnIndex": 0,
+                "endColumnIndex": 11
+            }
+        ],
+        "booleanRule": {
+            "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                    {
+                        "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) >= 0.5, ROUND(($F2-$E2)/$F2,1) < 0.75, $H2=\"yes\")"
+                    }
+                ]
+            },
+            "format": {
+                "backgroundColor": {
+                    "red": 0.84313726,
+                    "green": 0.42352942,
+                    "blue": 0.45882353
+                },
+                "textFormat": {
+                    "foregroundColor": {},
+                    "foregroundColorStyle": {
+                        "rgbColor": {}
+                    }
+                },
+                "backgroundColorStyle": {
+                    "rgbColor": {
+                        "red": 0.84313726,
+                        "green": 0.42352942,
+                        "blue": 0.45882353
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ranges": [
+            {
+                "startRowIndex": 1,
+                "endRowIndex": 151,
+                "startColumnIndex": 0,
+                "endColumnIndex": 11
+            }
+        ],
+        "booleanRule": {
+            "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                    {
+                        "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) >= 0.75, ROUND(($F2-$E2)/$F2,1) < 1, $H2=\"yes\")"
+                    }
+                ]
+            },
+            "format": {
+                "backgroundColor": {
+                    "red": 0.9529412,
+                    "green": 0.3254902,
+                    "blue": 0.22745098
+                },
+                "textFormat": {
+                    "foregroundColor": {},
+                    "foregroundColorStyle": {
+                        "rgbColor": {}
+                    }
+                },
+                "backgroundColorStyle": {
+                    "rgbColor": {
+                        "red": 0.9529412,
+                        "green": 0.3254902,
+                        "blue": 0.22745098
+                    }
+                }
+            }
+        }
+    },
+    {
+        "ranges": [
+            {
+                "startRowIndex": 1,
+                "endRowIndex": 151,
+                "startColumnIndex": 0,
+                "endColumnIndex": 11
+            }
+        ],
+        "booleanRule": {
+            "condition": {
+                "type": "CUSTOM_FORMULA",
+                "values": [
+                    {
+                        "userEnteredValue": "=$H2=\"no\""
+                    }
+                ]
+            },
+            "format": {
+                "backgroundColor": {
+                    "red": 0.4,
+                    "green": 0.4,
+                    "blue": 0.4
+                },
+                "textFormat": {
+                    "foregroundColor": {},
+                    "foregroundColorStyle": {
+                        "rgbColor": {}
+                    }
+                },
+                "backgroundColorStyle": {
+                    "rgbColor": {
+                        "red": 0.4,
+                        "green": 0.4,
+                        "blue": 0.4
+                    }
+                }
+            }
+        }
+    }
+]

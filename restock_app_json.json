@@ -1,0 +1,638 @@
+{
+    "spreadsheetId": "1OMDtvdnsu0kFCXFxQnSRcP49qpIiWrosUSV1si5OKPg",
+    "properties": {
+        "title": "menzies_restock_app",
+        "locale": "en_GB",
+        "autoRecalc": "ON_CHANGE",
+        "timeZone": "Australia/Sydney",
+        "defaultFormat": {
+            "backgroundColor": {
+                "red": 1,
+                "green": 1,
+                "blue": 1
+            },
+            "padding": {
+                "top": 2,
+                "right": 3,
+                "bottom": 2,
+                "left": 3
+            },
+            "verticalAlignment": "BOTTOM",
+            "wrapStrategy": "OVERFLOW_CELL",
+            "textFormat": {
+                "foregroundColor": {},
+                "fontFamily": "arial,sans,sans-serif",
+                "fontSize": 10,
+                "bold": False,
+                "italic": False,
+                "strikethrough": False,
+                "underline": False,
+                "foregroundColorStyle": {
+                    "rgbColor": {}
+                }
+            },
+            "backgroundColorStyle": {
+                "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                }
+            }
+        },
+        "spreadsheetTheme": {
+            "primaryFontFamily": "Arial",
+            "themeColors": [
+                {
+                    "colorType": "TEXT",
+                    "color": {
+                        "rgbColor": {}
+                    }
+                },
+                {
+                    "colorType": "BACKGROUND",
+                    "color": {
+                        "rgbColor": {
+                            "red": 1,
+                            "green": 1,
+                            "blue": 1
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT1",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.25882354,
+                            "green": 0.52156866,
+                            "blue": 0.95686275
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT2",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.91764706,
+                            "green": 0.2627451,
+                            "blue": 0.20784314
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT3",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.9843137,
+                            "green": 0.7372549,
+                            "blue": 0.015686275
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT4",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.20392157,
+                            "green": 0.65882355,
+                            "blue": 0.3254902
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT5",
+                    "color": {
+                        "rgbColor": {
+                            "red": 1,
+                            "green": 0.42745098,
+                            "blue": 0.003921569
+                        }
+                    }
+                },
+                {
+                    "colorType": "ACCENT6",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.27450982,
+                            "green": 0.7411765,
+                            "blue": 0.7764706
+                        }
+                    }
+                },
+                {
+                    "colorType": "LINK",
+                    "color": {
+                        "rgbColor": {
+                            "red": 0.06666667,
+                            "green": 0.33333334,
+                            "blue": 0.8
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "sheets": [
+        {
+            "properties": {
+                "sheetId": 462905972,
+                "title": "admin",
+                "index": 0,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 1000,
+                    "columnCount": 26
+                }
+            }
+        },
+        {
+            "properties": {
+                "sheetId": 0,
+                "title": "restock_status",
+                "index": 1,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 1020,
+                    "columnCount": 27,
+                    "frozenRowCount": 1,
+                    "frozenColumnCount": 1
+                }
+            },
+            "conditionalFormats": [
+                {
+                    "ranges": [
+                        {
+                            "startRowIndex": 0,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 10,
+                            "endColumnIndex": 11
+                        },
+                        {
+                            "startRowIndex": 1,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 0,
+                            "endColumnIndex": 10
+                        }
+                    ],
+                    "booleanRule": {
+                        "condition": {
+                            "type": "CUSTOM_FORMULA",
+                            "values": [
+                                {
+                                    "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) > 0, ROUND(($F2-$E2)/$F2,
+                                    1) < 0.25, $H2="yes")"
+                                }
+                            ]
+                        },
+                        "format": {
+                            "backgroundColor": {
+                                "red": 0.62352943,
+                                "green": 0.62352943,
+                                "blue": 0.9254902
+                            },
+                            "backgroundColorStyle": {
+                                "rgbColor": {
+                                    "red": 0.62352943,
+                                    "green": 0.62352943,
+                                    "blue": 0.9254902
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "ranges": [
+                        {
+                            "startRowIndex": 0,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 10,
+                            "endColumnIndex": 11
+                        },
+                        {
+                            "startRowIndex": 1,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 0,
+                            "endColumnIndex": 10
+                        }
+                    ],
+                    "booleanRule": {
+                        "condition": {
+                            "type": "CUSTOM_FORMULA",
+                            "values": [
+                                {
+                                    "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) >= 0.25, ROUND(($F2-$E2)/$F2,
+                                    1) < 0.5, $H2="yes")"
+                                }
+                            ]
+                        },
+                        "format": {
+                            "backgroundColor": {
+                                "red": 0.73333335,
+                                "green": 0.5254902,
+                                "blue": 0.69411767
+                            },
+                            "backgroundColorStyle": {
+                                "rgbColor": {
+                                    "red": 0.73333335,
+                                    "green": 0.5254902,
+                                    "blue": 0.69411767
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "ranges": [
+                        {
+                            "startRowIndex": 0,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 10,
+                            "endColumnIndex": 11
+                        },
+                        {
+                            "startRowIndex": 1,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 0,
+                            "endColumnIndex": 10
+                        }
+                    ],
+                    "booleanRule": {
+                        "condition": {
+                            "type": "CUSTOM_FORMULA",
+                            "values": [
+                                {
+                                    "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) >= 0.5, ROUND(($F2-$E2)/$F2,
+                                    1) < 0.75, $H2="yes")"
+                                }
+                            ]
+                        },
+                        "format": {
+                            "backgroundColor": {
+                                "red": 0.84313726,
+                                "green": 0.42352942,
+                                "blue": 0.45882353
+                            },
+                            "textFormat": {
+                                "foregroundColor": {},
+                                "foregroundColorStyle": {
+                                    "rgbColor": {}
+                                }
+                            },
+                            "backgroundColorStyle": {
+                                "rgbColor": {
+                                    "red": 0.84313726,
+                                    "green": 0.42352942,
+                                    "blue": 0.45882353
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "ranges": [
+                        {
+                            "startRowIndex": 0,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 10,
+                            "endColumnIndex": 11
+                        },
+                        {
+                            "startRowIndex": 1,
+                            "endRowIndex": 151,
+                            "startColumnIndex": 0,
+                            "endColumnIndex": 10
+                        }
+                    ],
+                    "booleanRule": {
+                        "condition": {
+                            "type": "CUSTOM_FORMULA",
+                            "values": [
+                                {
+                                    "userEnteredValue": "=AND(ROUND(($F2-$E2)/$F2,1) >= 0.75, ROUND(($F2-$E2)/$F2,
+                                    1) < 1, $H2="yes")"
+                                }
+                            ]
+                        },
+                        "format": {
+                            "backgroundColor": {
+                                "red": 0.9529412,
+                                "green": 0.3254902,
+                                "blue": 0.22745098
+                            },
+                            "textFormat": {
+                                "foregroundColor": {},
+                                "foregroundColorStyle": {
+                                    "rgbColor": {}
+                                }
+                            },
+                            "backgroundColorStyle": {
+                                "rgbColor": {
+                                    "red": 0.9529412,
+                                    "green": 0.3254902,
+                                    "blue": 0.22745098
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "ranges": [
+                        {
+                            "startRowIndex": 0,
+                            "endRowIndex": 150,
+                            "startColumnIndex": 10,
+                            "endColumnIndex": 11
+                        },
+                        {
+                            "startRowIndex": 1,
+                            "endRowIndex": 150,
+                            "startColumnIndex": 0,
+                            "endColumnIndex": 10
+                        }
+                    ],
+                    "booleanRule": {
+                        "condition": {
+                            "type": "CUSTOM_FORMULA",
+                            "values": [
+                                {
+                                    "userEnteredValue": "=$H2="no""
+                                }
+                            ]
+                        },
+                        "format": {
+                            "backgroundColor": {
+                                "red": 0.4,
+                                "green": 0.4,
+                                "blue": 0.4
+                            },
+                            "textFormat": {
+                                "foregroundColor": {},
+                                "foregroundColorStyle": {
+                                    "rgbColor": {}
+                                }
+                            },
+                            "backgroundColorStyle": {
+                                "rgbColor": {
+                                    "red": 0.4,
+                                    "green": 0.4,
+                                    "blue": 0.4
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "properties": {
+                "sheetId": 2104049419,
+                "title": "restock_status_test",
+                "index": 2,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 1019,
+                    "columnCount": 27
+                }
+            }
+        },
+        {
+            "properties": {
+                "sheetId": 1129127171,
+                "title": "reports",
+                "index": 3,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 1001,
+                    "columnCount": 59
+                }
+            },
+            "conditionalFormats": [
+                {
+                    "ranges": [
+                        {
+                            "sheetId": 1129127171,
+                            "startRowIndex": 1,
+                            "endRowIndex": 33,
+                            "startColumnIndex": 0,
+                            "endColumnIndex": 3
+                        }
+                    ],
+                    "booleanRule": {
+                        "condition": {
+                            "type": "CUSTOM_FORMULA",
+                            "values": [
+                                {
+                                    "userEnteredValue": "=$C2-$B2<0"
+                                }
+                            ]
+                        },
+                        "format": {
+                            "backgroundColor": {
+                                "red": 0.91764706,
+                                "green": 0.6,
+                                "blue": 0.6
+                            },
+                            "backgroundColorStyle": {
+                                "rgbColor": {
+                                    "red": 0.91764706,
+                                    "green": 0.6,
+                                    "blue": 0.6
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "properties": {
+                "sheetId": 1493084545,
+                "title": "20220111_fireplace_count",
+                "index": 4,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 1000,
+                    "columnCount": 26
+                }
+            }
+        },
+        {
+            "properties": {
+                "sheetId": 644802000,
+                "title": "20230111_till_check",
+                "index": 5,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 999,
+                    "columnCount": 26
+                }
+            }
+        },
+        {
+            "properties": {
+                "sheetId": 1647125887,
+                "title": "20230111_wines_btg_order",
+                "index": 6,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 1000,
+                    "columnCount": 26
+                }
+            }
+        },
+        {
+            "properties": {
+                "sheetId": 681882866,
+                "title": "sales_WE20230115",
+                "index": 7,
+                "sheetType": "GRID",
+                "gridProperties": {
+                    "rowCount": 596,
+                    "columnCount": 19
+                }
+            }
+        }
+    ],
+    "namedRanges": [
+        {
+            "namedRangeId": "646994701",
+            "name": ""restock_status_test"!oos",
+            "range": {
+                "sheetId": 2104049419,
+                "startColumnIndex": 7,
+                "endColumnIndex": 8
+            }
+        },
+        {
+            "namedRangeId": "n5gy77y1t1bi",
+            "name": "vintage",
+            "range": {
+                "startColumnIndex": 3,
+                "endColumnIndex": 4
+            }
+        },
+        {
+            "namedRangeId": "oajbmdh8xifq",
+            "name": "par",
+            "range": {
+                "startColumnIndex": 5,
+                "endColumnIndex": 6
+            }
+        },
+        {
+            "namedRangeId": "687673594",
+            "name": ""restock_status_test"!par",
+            "range": {
+                "sheetId": 2104049419,
+                "startColumnIndex": 5,
+                "endColumnIndex": 6
+            }
+        },
+        {
+            "namedRangeId": "909977284",
+            "name": ""restock_status_test"!vintage",
+            "range": {
+                "sheetId": 2104049419,
+                "startColumnIndex": 3,
+                "endColumnIndex": 4
+            }
+        },
+        {
+            "namedRangeId": "1500145010",
+            "name": ""restock_status_test"!restock_quant",
+            "range": {
+                "sheetId": 2104049419,
+                "startColumnIndex": 6,
+                "endColumnIndex": 7
+            }
+        },
+        {
+            "namedRangeId": "wjaowdf70xcd",
+            "name": "category",
+            "range": {
+                "startColumnIndex": 2,
+                "endColumnIndex": 3
+            }
+        },
+        {
+            "namedRangeId": "ea09u5dirot5",
+            "name": "soh",
+            "range": {
+                "startColumnIndex": 4,
+                "endColumnIndex": 5
+            }
+        },
+        {
+            "namedRangeId": "1538512519",
+            "name": ""restock_status_test"!soh",
+            "range": {
+                "sheetId": 2104049419,
+                "startColumnIndex": 4,
+                "endColumnIndex": 5
+            }
+        },
+        {
+            "namedRangeId": "e2blmeubtebj",
+            "name": "oos",
+            "range": {
+                "startColumnIndex": 7,
+                "endColumnIndex": 8
+            }
+        },
+        {
+            "namedRangeId": "v99ttzf4rjrl",
+            "name": "restock_quant",
+            "range": {
+                "startColumnIndex": 6,
+                "endColumnIndex": 7
+            }
+        },
+        {
+            "namedRangeId": "137575495",
+            "name": ""restock_status_test"!name",
+            "range": {
+                "sheetId": 2104049419,
+                "startColumnIndex": 0,
+                "endColumnIndex": 1
+            }
+        },
+        {
+            "namedRangeId": "dampi7wn7c1f",
+            "name": "format",
+            "range": {
+                "startRowIndex": 1,
+                "endRowIndex": 205,
+                "startColumnIndex": 1,
+                "endColumnIndex": 2
+            }
+        },
+        {
+            "namedRangeId": "948868912",
+            "name": ""restock_status_test"!category",
+            "range": {
+                "sheetId": 2104049419,
+                "startColumnIndex": 2,
+                "endColumnIndex": 3
+            }
+        },
+        {
+            "namedRangeId": "1264458880",
+            "name": ""restock_status_test"!format",
+            "range": {
+                "sheetId": 2104049419,
+                "startRowIndex": 0,
+                "endRowIndex": 204,
+                "startColumnIndex": 1,
+                "endColumnIndex": 2
+            }
+        },
+        {
+            "namedRangeId": "azolzuzhxwje",
+            "name": "name",
+            "range": {
+                "startColumnIndex": 0,
+                "endColumnIndex": 1
+            }
+        }
+    ],
+    "spreadsheetUrl": "https: //docs.google.com/spreadsheets/d/1OMDtvdnsu0kFCXFxQnSRcP49qpIiWrosUSV1si5OKPg/edit"
+}
