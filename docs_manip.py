@@ -14,8 +14,7 @@ import json
 SCOPES = ['https://www.googleapis.com/auth/documents.readonly']
 
 def doc_getter():
-    """Shows basic usage of the Docs API.
-    Prints the title of a sample document.
+    """contacts the api and returns the document object as a nested dict.
     """
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
