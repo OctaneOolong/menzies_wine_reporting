@@ -9,7 +9,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 import json
-import pandas
+import pandas as pd
  
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -131,7 +131,6 @@ def main():
 
         rows_list = values_dict.get('values', "none found")
 
-        print(len(rows_list))
         #print(json.dumps(values_dict, indent=4))
 
         if not rows_list:
@@ -149,10 +148,24 @@ def main():
         - [ ] send the request to the google docs api and see how it goes.
         '''
 
-        
-        
     except HttpError as err:
         print(err)
 
+    # form the df
+
+    df = pd.DataFrame(rows_list[1:], columns=rows_list[0])
+
+    """
+    query the df for lows. The algorithm is:
+    #"=QUERY(restock_status!A1:I145, "SELECT vintage, name, soh WHERE soh>0 and soh<4 and (1-(par-soh)/par)<(2/3) and format='btg' ORDER BY soh ASC")"
+    """
+
+    df["soh"] = pd.to_numeric(df["soh"], errors='coerce')
+    
+    print(df.info())
+
+    #low_df = df[df["soh"] > 0]
+
+    #print(low_df)
 if __name__ == '__main__':
     main()
