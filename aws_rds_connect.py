@@ -1,34 +1,39 @@
-# Now we will import that package
+"""
+code taken from:
+[Connecting to your DB instance using IAM authentication and the AWS SDK for Python (Boto3) - Amazon Relational Database Service](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.Python.html)
+"""
+
 import pymysql
-#We will use connect() to connect to RDS Instance
-#host is the endpoint of your RDS instance
-#user is the username you have given while creating the RDS instance
-#Password is Master pass word you have given 
-db = pymysql.connect(host="Your RDS endpoint", user = "Username added in RDS instance", password="Master password")
-# you have cursor instance here
-cursor = db.cursor()
-cursor.execute("select version()")
-#now you will get the version of MYSQL you have selected on instance
-data = cursor.fetchone()
-#Lets's create a DB
-sql = '''create database kTestDb'''
-cursor.execute(sql)
-cursor.connection.commit()
-#Create a table 
-sql = '''
-create table person ( id int not null auto_increment,fname text, lname text, primary key (id) )'''
-cursor.execute(sql)
-#Check if our table is created or not 
-sql = '''show tables'''
-cursor.execute(sql)
-cursor.fetchall()
-#Output of above will be (('person',),)
-#Insert some records in the table 
-sql = ''' insert into person(fname, lname) values('%s', '%s')''' % ('XXX', 'YYY')
-cursor.execute(sql)
-db.commit()
-#Lets select the data from above added table
-sql = '''select * from person'''
-cursor.execute(sql)
-cursor.fetchall()
-#Output of above will be ((1, 'XXX', 'YYY'),)
+import sys
+import boto3
+import os
+
+ENDPOINT="menzies-wine-stock.c6rsjco4mere.ap-southeast-2.rds.amazonaws.com"
+PORT=3306
+USER="jstathakis"
+REGION="ap-southeast-2b"
+DBNAME="menzies-wine-stock"
+os.environ['LIBMYSQL_ENABLE_CLEARTEXT_PLUGIN'] = '1'
+
+#gets the credentials from .aws/credentials
+session = boto3.Session(profile_name='default')
+client = session.client('rds')
+
+token = client.generate_db_auth_token(DBHostname=ENDPOINT, Port=PORT, DBUsername=USER, Region=REGION)
+
+try:
+    conn =  pymysql.connect(host=ENDPOINT, 
+                            user=USER,
+                            passwd=token,
+                            port=PORT,
+                            database=DBNAME,
+                            ssl_ca='global-bundle.pem'
+                            )
+    # cur = conn.cursor()
+    # cur.execute("""SELECT now()""")
+    # query_results = cur.fetchall()
+    # print(query_results)
+except Exception as e:
+    print("Database connection failed due to {}".format(e))          
+                
+

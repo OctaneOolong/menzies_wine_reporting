@@ -34,7 +34,7 @@ def create_menzies_stock_table(connection):
     try:
         with connection.cursor() as cursor:
             
-            create_movies_table_query = """
+            create_menzies_stock_table_query = """
             CREATE TABLE menzies_wine_stock(
             id INT AUTO_INCREMENT PRIMARY KEY,
             name VARCHAR(100),
@@ -48,7 +48,7 @@ def create_menzies_stock_table(connection):
             )
             """
         
-            cursor.execute(create_movies_table_query)
+            cursor.execute(create_menzies_stock_table_query)
             connection.commit()
 
     except Error as e:
