@@ -11,9 +11,10 @@ from googleapiclient.errors import HttpError
 import json
 
 # If modifying these scopes, delete the file token.json.
-SCOPES = ['https://www.googleapis.com/auth/documents.readonly']
+SCOPES = ['https://www.googleapis.com/auth/documents']
 
-def doc_getter():
+
+def service_getter():
     """contacts the api and returns the document object as a nested dict.
     """
     creds = None
@@ -37,26 +38,56 @@ def doc_getter():
     try:
         service = build('docs', 'v1', credentials=creds)
 
-        # Retrieve the documents contents from the Docs service.
-        document = service.documents().get(documentId=DOCUMENT_ID).execute()
-
     except HttpError as err:
         print(err)
 
-    return document
+    return service
 
-# The ID of a sample document.
-DOCUMENT_ID = '1Iyy3ltWTNkEk45fP5rD7efiXG1kJlmTYehauf100DqY'
+def section_idx_getter(doc_content, target_section):
+
+    heading_dict = {}
+
+    # and if we copy the above loop, targeting the titles instead:
+
+    for i in range(len(doc_content)):
+        if "paragraph" in doc_content[i].keys() and "HEADING" in doc_content[i]["paragraph"]["paragraphStyle"]["namedStyleType"]:
+            
+            heading = doc_content[i]["paragraph"]["elements"][0]["textRun"]["content"].strip()
+            
+            heading_dict[heading] = i
+            
+            print("The following is the idx values of each heading in the document content list, not their start and stop indexes")
+
+            print("{}".format(i) + " " + heading)
+
+    target_section = "LOW BTB"
+
+    start_idx = heading_dict[target_section]
+
+    end_idx = heading_dict[
+                        list(heading_dict.keys())
+                            [
+                                list(heading_dict.keys()).index(target_section)+1]
+                                ]-1
+    
+    return start_idx, end_idx
 
 def main():
 
-    doc = doc_getter()
+    # menzies_bar_oos_test doc 
     
-    # print the keys of the dict
+    doc_id = "1Iyy3ltWTNkEk45fP5rD7efiXG1kJlmTYehauf100DqY"
+    
+    service = service_getter()
+
+    # Retrieve the documents contents from the Docs service.
+    doc = service.documents().get(documentId=doc_id).execute()
 
     # The content list has a length of 98.
 
-    content = doc["body"]["content"]
+    doc_content = doc["body"]["content"]
+
+    section_idx_getter(doc_content, target_section="LOW BTB")
 
     # for i in range(len(doc["body"]["content"])):
     #     print(i)
@@ -103,13 +134,12 @@ def main():
 
     # and if we copy the above loop, targeting the titles instead:
 
-    for i in range(len(content)):
-        if "paragraph" in content[i].keys() and "HEADING" in content[i]["paragraph"]["paragraphStyle"]["namedStyleType"]:
-            #print(i)
-            heading = content[i]["paragraph"]["elements"][0]["textRun"]["content"].strip()
-            #print(repr(heading))
+    for i in range(len(doc_content)):
+        if "paragraph" in doc_content[i].keys() and "HEADING" in doc_content[i]["paragraph"]["paragraphStyle"]["namedStyleType"]:
+            
+            heading = doc_content[i]["paragraph"]["elements"][0]["textRun"]["content"].strip()
+            
             heading_dict[heading] = i
-            #print(json.dumps(content[i], indent=4))
 
     #print(heading_dict)
     # To control the text of a section, we need to know where it starts and where it finishes. A section begins at the index of the content list the heading is in, and ends at i-1 of the title following. Assembling a dictionary with "title" "content_idx" could be the way to go:
@@ -135,7 +165,7 @@ def main():
     # remembering that the accessor for the text is of the form content[content_idx]["paragraph"]["elements"][0]["textRun"]["content"]. To make it easier, define a short function to iterate through the content_idx position while leaving the rest of the accessors as a template:
 
     def content_text(content_idx):
-        return content[content_idx]["paragraph"]["elements"][0]["textRun"]["content"]
+        return doc_content[content_idx]["paragraph"]["elements"][0]["textRun"]["content"]
 
     for i in range(start_idx, end_idx):
         if not content_text(i).isspace():

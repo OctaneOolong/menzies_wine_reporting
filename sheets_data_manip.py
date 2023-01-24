@@ -44,7 +44,7 @@ def test_function_edit_pj_soh(service, values):
 
     # Convert the values to a pandas dataframe
 
-    df = pandas.DataFrame(values[1:], columns=values[0])
+    df = pd.DataFrame(values[1:], columns=values[0])
     
     # edit the dataframe to update values
 
@@ -57,6 +57,7 @@ def test_function_edit_pj_soh(service, values):
     # Turn the data back into the API required format (list of lists). Combine the column headers with the data to preserve them.
     
     data = [df.columns.values.tolist()]
+    
     data.extend(df.values.tolist())
         
     # Create the body of the request
@@ -149,29 +150,29 @@ def dataframe_queries(rows_list):
 
     oos_btg_query = 'soh == 0 and format=="btg"'
 
-    oos_btg_df = df.query(oos_btg_query)
+    oos_btg_df = df.query(oos_btg_query).sort_values(by=['soh'], ascending=True)
 
     # low btg
 
     low_btg_query = 'soh > 0 and soh <4 and (1-(par-soh)/par)<({}) and format=="btg"'.format(low_stock_ratio)
 
-    low_btg_df = df.query(low_btg_query)
+    low_btg_df = df.query(low_btg_query).sort_values(by=['soh'], ascending=True)
 
     # oos btb
 
     oos_btb_query = 'soh == 0 and format=="btb"'
 
-    oos_btb_df = df.query(oos_btb_query)
+    oos_btb_df = df.query(oos_btb_query).sort_values(by=['soh'], ascending=True)
 
     # low btb
 
     low_btb_query = 'soh > 0 and soh <4 and (1-(par-soh)/par)<({}) and format=="btb"'.format(low_stock_ratio)
 
-    low_btb_df = df.query(low_btb_query)
+    low_btb_df = df.query(low_btb_query).sort_values(by=['soh'], ascending=True)
 
     return oos_btg_df, low_btg_df, oos_btb_df, low_btb_df
 
-def main():
+def stock_queries():
 
     try:
         # Build the service object
@@ -201,5 +202,9 @@ def main():
 
     return dataframe_queries(rows_list)
 
-if __name__ == '__main__':
-    main()
+def main():
+    # a,b,c,d = stock_queries()
+
+    # print(b)
+
+main()
