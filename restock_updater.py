@@ -108,4 +108,4 @@ def soh_from_restocked_updater():
     print(update_soh_request)
     # update the stock_status soh column with the soh df column values
 
-main()
+soh_from_restocked_updater()
