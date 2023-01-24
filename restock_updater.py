@@ -78,7 +78,7 @@ def stock_status_df_builder(spreadsheet_id, service, stock_status_range):
 
     return stock_status_df
 
-def main():
+def soh_from_restocked_updater():
 
     service = sheets_service_getter.sheets_service_getter(10)
 
