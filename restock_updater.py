@@ -36,7 +36,6 @@ def restock_report_df_builder(spreadsheet_id, service, restocked_values_range):
 
     restocked_values_df['wine_index'] = restocked_values_df['vintage'] + ' ' + restocked_values_df['name']
 
-
     restocked_values_df = restocked_values_df.set_index(['wine_index'])
 
     restocked_values_df['soh'] = pd.to_numeric(restocked_values_df['soh'], errors = 'coerce')
@@ -45,7 +44,7 @@ def restock_report_df_builder(spreadsheet_id, service, restocked_values_range):
 
     restocked_values_df['restocked'] = pd.to_numeric(restocked_values_df['restocked'], errors = 'coerce')
 
-    return restocked_values_df
+    return restocked_values_df 
 
 # I need the service to get the spreadsheet object which contains the values.
 
@@ -67,14 +66,18 @@ def stock_status_df_builder(spreadsheet_id, service, stock_status_range):
 
     stock_status_df = pd.DataFrame(sheet_data[1:], columns = sheet_data[0]).dropna()
 
-    stock_status_df['wine_index'] = stock_status_df['vintage'] + ' ' + stock_status_df['name']
+    try:
+        stock_status_df['wine_index'] = stock_status_df['vintage'] + ' ' + stock_status_df['name']
 
 
-    stock_status_df = stock_status_df.set_index(['wine_index'])
+        stock_status_df = stock_status_df.set_index(['wine_index'])
 
-    stock_status_df['soh'] = pd.to_numeric(stock_status_df['soh'], errors = 'coerce')
+        stock_status_df['soh'] = pd.to_numeric(stock_status_df['soh'], errors = 'coerce')
 
-    stock_status_df['par'] = pd.to_numeric(stock_status_df['par'], errors = 'coerce')
+        stock_status_df['par'] = pd.to_numeric(stock_status_df['par'], errors = 'coerce')
+
+    except NameError:
+        print(NameError)
 
     return stock_status_df
 
@@ -84,26 +87,28 @@ def soh_from_restocked_updater():
 
     spreadsheet_id = '1OMDtvdnsu0kFCXFxQnSRcP49qpIiWrosUSV1si5OKPg'
 
-    restocked_values_range = "restock_report!A2:E200"
+    restocked_values_range = "restock_report!A1:E200"
+    
+    stock_status_range = "restock_status_test!A1:F200"
     
     restocked_df = restock_report_df_builder(spreadsheet_id, service, restocked_values_range)
 
-    stock_status_range = "restock_status_test!A1:F200"
-    
     stock_status_df = stock_status_df_builder(spreadsheet_id, service, stock_status_range)
 
     stock_status_df['soh'] = stock_status_df['soh'].add(restocked_df['restocked'], fill_value = 0)
 
+    print(restocked_df)
+
     data = [stock_status_df['soh'].values.tolist()]
-    
-    #data.extend(stock_status_df['soh'].values.tolist())
 
     body_  = {
         "range" : "restock_status!E2", 
         "majorDimension" : "COLUMNS", 
         "values" : data}
     
-    update_soh_request = service.spreadsheets().values().update(spreadsheetId=spreadsheet_id, range="restock_status!E2",valueInputOption="USER_ENTERED",includeValuesInResponse=True, body = body_).execute()
+    update_soh_request = service.spreadsheets().values().update(spreadsheetId=spreadsheet_id, range="restock_status!E2",valueInputOption="USER_ENTERED",includeValuesInResponse=True, body = body_)
+    
+    update_soh_request.execute()
     
     print(update_soh_request)
     # update the stock_status soh column with the soh df column values
