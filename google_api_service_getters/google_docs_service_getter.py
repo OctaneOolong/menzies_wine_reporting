@@ -15,20 +15,24 @@ def google_docs_service_getter():
     """
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
-    # created automatically when the authorization flow completes for the first
-    # time.
-    if os.path.exists('credentials_tokens/token_docs.json'):
-        creds = Credentials.from_authorized_user_file('token_docs.json', SCOPES)
+    # created automatically when the authorization flow completes for the first time.
+
+    path_to_token = 'credentials_tokens/token_docs.json'
+
+    path_to_credentials = 'credentials_tokens/credentials_docs.json'
+
+    if os.path.exists(path_to_token):
+        creds = Credentials.from_authorized_user_file(path_to_token, SCOPES)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials_tokens/credentials_docs.json', SCOPES)
+                path_to_credentials, SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
-        with open('credentials_tokens/token_docs.json', 'w') as token:
+        with open(path_to_token, 'w') as token:
             token.write(creds.to_json())
 
     try:
@@ -40,7 +44,7 @@ def google_docs_service_getter():
     return service
 
 def main():
-    
+
     service = google_docs_service_getter()
 
     print(service)
