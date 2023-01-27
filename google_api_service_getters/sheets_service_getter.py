@@ -44,13 +44,3 @@ def sheets_service_getter(spreadsheet_id):
     service = build('sheets', 'v4', credentials = creds)
 
     return service
-
-def main():
-
-    spreadsheet_id = '1OMDtvdnsu0kFCXFxQnSRcP49qpIiWrosUSV1si5OKPg'
-
-    service = sheets_service_getter(spreadsheet_id)
-
-    print(service)
-
-main()

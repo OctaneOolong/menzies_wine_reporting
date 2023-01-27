@@ -2,6 +2,8 @@ import pandas as pd
 
 import google_api_service_getters.sheets_service_getter as sheets_service_getter
 
+from menzies_stock_info import menzies_stock_info
+
 def restock_report_df_builder(spreadsheet_id, service, restocked_values_range):
 
     sheets_api = service.spreadsheets()
@@ -22,6 +24,8 @@ def restock_report_df_builder(spreadsheet_id, service, restocked_values_range):
 
     restocked_values_df = pd.DataFrame(sheet_data[1:], columns = sheet_data[0]).dropna()
 
+    restocked_values_df = restocked_values_df[restocked_values_df['restocked'] != 0]
+
     restocked_values_df['wine_index'] = restocked_values_df['vintage'] + ' ' + restocked_values_df['name']
 
     restocked_values_df = restocked_values_df.set_index(['wine_index'])
@@ -33,3 +37,13 @@ def restock_report_df_builder(spreadsheet_id, service, restocked_values_range):
     restocked_values_df['restocked'] = pd.to_numeric(restocked_values_df['restocked'], errors = 'coerce')
 
     return restocked_values_df 
+
+def main():
+
+    spreadsheet_id, restocked_values_range, stock_status_range = menzies_stock_info()
+
+    service = sheets_service_getter.sheets_service_getter(spreadsheet_id)
+
+    restock_report_df_builder(spreadsheet_id, service, restocked_values_range)
+
+main()
