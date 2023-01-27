@@ -1,0 +1,41 @@
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+SPREADSHEET_ID = '1OMDtvdnsu0kFCXFxQnSRcP49qpIiWrosUSV1si5OKPg'
+INPUT_RANGE_NAME = 'restock_status!A1:K150'
+OUTPUT_RANGE_NAME = 'restock_status_test!A1'
+
+import pandas as pd
+
+def test_function_edit_pj_soh(service, values):
+
+    # Convert the values to a pandas dataframe
+
+    df = pd.DataFrame(values[1:], columns=values[0])
+    
+    # edit the dataframe to update values
+
+    df = df.set_index("name")
+
+    df.loc["perrier jouet 'grand brut'", "soh"] = 999
+
+    df = df.reset_index()
+    
+    # Turn the data back into the API required format (list of lists). Combine the column headers with the data to preserve them.
+    
+    data = [df.columns.values.tolist()]
+    
+    data.extend(df.values.tolist())
+        
+    # Create the body of the request
+
+    value_range_body = {"values": data}
+
+    # send the request to Google Sheets API
+
+    value_request = service.spreadsheets().values().update(spreadsheetId=SPREADSHEET_ID, range=OUTPUT_RANGE_NAME, 
+    valueInputOption="USER_ENTERED",includeValuesInResponse=True, body = value_range_body)
+
+    value_request.execute()
+
+    return value_request
+
+

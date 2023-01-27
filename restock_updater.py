@@ -10,7 +10,7 @@
 # 5. Provide a report of what's been updated.
 """
 
-import sheets_service_getter
+import google_api_service_getters.sheets_service_getter as sheets_service_getter
 
 import pandas as pd
 
@@ -57,9 +57,6 @@ def stock_status_df_builder(spreadsheet_id, service, stock_status_range):
     sheet_data = stock_status_values_dict.get("values")
 
     for idx, row in enumerate(sheet_data[1:], 1):
-
-        # if idx == len(sheet_data[1:]):
-        #     break
 
         if len(row) < len(sheet_data[0]):
             sheet_data[idx].append(0)
