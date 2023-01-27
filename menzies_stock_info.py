@@ -4,6 +4,6 @@ def menzies_stock_info():
 
     restocked_values_range = "restock_report!A1:E200"
     
-    stock_status_range = "restock_status_test!A1:F200"
+    stock_status_range = "restock_status!A1:J200"
 
     return spreadsheet_id, restocked_values_range, stock_status_range

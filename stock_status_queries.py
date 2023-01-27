@@ -1,6 +1,12 @@
-def dataframe_queries(rows_list):
+import pandas as pd
 
-    df = pd.DataFrame(rows_list[1:144], columns=rows_list[0])
+from menzies_stock_info import menzies_stock_info
+
+from google_api_service_getters.sheets_service_getter import sheets_service_getter
+
+from stock_status_df_builder import stock_status_df_builder
+
+def dataframe_queries(df):
     
     """
     query the df for btg lows. The algorithm is:
@@ -48,3 +54,21 @@ def dataframe_queries(rows_list):
     low_btb_df = df.query(low_btb_query).sort_values(by=['soh'], ascending=True)
 
     return oos_btg_df, low_btg_df, oos_btb_df, low_btb_df
+
+def main():
+
+    spreadsheet_id, restocked_values_range, stock_status_range = menzies_stock_info()
+
+    service = sheets_service_getter(spreadsheet_id)
+
+    stock_status_df = stock_status_df_builder(spreadsheet_id, service, stock_status_range)
+
+    oos_btg_df, low_btg_df, oos_btb_df, low_btb_df = dataframe_queries(stock_status_df)
+
+    print(oos_btg_df[['soh', 'par', 'soh_ratio']])
+
+    print(low_btg_df[['soh', 'par', 'soh_ratio']])
+
+    print(low_btb_df[['soh', 'par', 'soh_ratio']])
+
+main()
