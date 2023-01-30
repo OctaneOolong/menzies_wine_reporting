@@ -2,6 +2,8 @@ import pandas as pd
 
 from google_api_service_getters.sheets_service_getter import sheets_service_getter
 
+from menzies_stock_info import menzies_stock_info
+
 def stock_status_df_builder(spreadsheet_id, service, stock_status_range):
 
     service = sheets_service_getter(spreadsheet_id)
@@ -31,5 +33,16 @@ def stock_status_df_builder(spreadsheet_id, service, stock_status_range):
 
     except NameError:
         print("uh oh, an error: ", NameError)
+
+    return stock_status_df
+
+# TODO: remove the fiunction below, its merely here to smooth out testing and building, ideally the above function is the one that other modules call to build their df's, using it as a template and supplying their own spreadsheet id's and etc.
+
+def test_stock_status_df():
+    spreadsheet_id, restocked_values_range, stock_status_range = menzies_stock_info()
+
+    service = sheets_service_getter(spreadsheet_id)
+
+    stock_status_df = stock_status_df_builder(spreadsheet_id, service, stock_status_range)
 
     return stock_status_df
